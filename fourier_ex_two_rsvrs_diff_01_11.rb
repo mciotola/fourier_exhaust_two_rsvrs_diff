@@ -4,14 +4,14 @@ puts "#                                                                         
 puts "# FOURIER HEAT CONDUCTION LAW--EXHAUSTIBLE RESERVOIRS - DIFF version 01.11    #"
 puts "#_____________________________________________________________________________#"
 puts "#                                                                             #"
-puts "# Copyright 2011-14 by Mark Ciotola; available for use under GNU license      #"
-puts "# Last revised on 02 February 2017      Website: http://www.heatsuite.com     #"
+puts "# Copyright 2011-17 by Mark Ciotola; available for use under GNU license      #"
+puts "# Created on 15 June 2014. Last revised on 10 May 2017                        #"
 puts "#_____________________________________________________________________________#"
 puts "#                                                                             #"
 puts "# Description:                                                                #"
 puts "# This simulation calculates the flow of heat energy across a thermal         #"
 puts "# conductor that connects a warmer object to a cooler object.                 #"
-puts "# Both reservoirs are exhaustible.                                            #"
+puts "# Both reservoirs are exhaustible and can have different characteristics.     #"
 puts "#                                                                             #"
 puts "###############################################################################"
 puts "\n\n"
@@ -23,6 +23,9 @@ puts "\n\n"
       #                                 conductor material                          #
       #                                 conductor area                              #
 	  #                                 conductor length                            #
+	  #                                 hot and cold reservoir thermal energy       #
+	  #                                 hot and cold reservoir volume               #
+	  #                                 hot and cold reservoir specific heat        #
       #                                                                             #
       # Website: http://www.heatsuite.com                                           #
       # Source site: https://github.com/mciotola/fouriers_law_of_heat_conduction    #
@@ -204,6 +207,9 @@ end
   end
 
 puts "\nSimulation is completed. \n\n"
+
+
+# END MATTER
 
 # Display key and references
 
